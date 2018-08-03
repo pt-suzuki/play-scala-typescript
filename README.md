@@ -1,6 +1,7 @@
 # play-scala-typescript
 
 テンプレート用プロジェクト
+（REDMEはマークアップも整備していない現状の擲り書き）
 
 Playframework2.6+Scala 2.12(Java8前提)+Vue.js2.5(Nuxt.js1.4)+Slick3.0
 
