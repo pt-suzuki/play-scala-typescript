@@ -7,7 +7,7 @@ Playframework2.6+Scala 2.12(Java8前提)+Vue.js2.5(Nuxt.js1.4)+Slick3.0
 
 applicationがアプリの実体
 
-vagrantはデバック用仮装環境（centos7ベース）
+vagrantはデバック用仮装環境（centos7ベース。chefによりvagrant upで一発構築できる。ただしvagrantのvbox周りのplugin必須。）
 
 DBはMYSQLで実装。仮装環境とは別立て前提。
 （実装は別立てlaravelプロジェクトと並行したのでevolution周りが色々足りない）
