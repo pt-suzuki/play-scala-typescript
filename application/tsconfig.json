@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "strict":true,
+        "outDir": ".typescript-out",
+        "allowSyntheticDefaultImports": true,
+        "lib" : ["es2015", "es2015.iterable", "dom"],
+        "sourceRoot": "app/assets/js/"
+    },
+    "src":[
+        "app/assets/js"
+    ],
+    "files": [
+        "app/assets/js/application.ts",
+        "app/assets/js/vue-shims.d.ts"
+    ]
+}

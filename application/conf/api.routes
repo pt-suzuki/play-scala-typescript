@@ -1,0 +1,15 @@
+
+
+GET     /v1/settings/account/list controllers.api.in_house.SettingsApiController.account_list_search
+GET     /v1/enums/mining_base_criteria controllers.api.in_house.EnumsApiController.mining_base_criteria
+GET     /v1/enums/mining_criteria controllers.api.in_house.EnumsApiController.mining_criteria
+
+GET     /v1/movie/search controllers.api.in_house.MovieApiController.search
+GET     /v1/movie/content/:id controllers.api.in_house.MovieApiController.show_detail(id)
+POST    /v1/movie/create controllers.api.in_house.MovieApiController.create
+
+GET     /v1/injuries_and_diseases/search controllers.api.second.InjuriesAndDiseaseApiController.search
+
+GET   /v1/auth/google controllers.api.common.LoginLogoutController.googleOauth
+
+GET   /v1/auth/login controllers.api.common.LoginLogoutController.login
